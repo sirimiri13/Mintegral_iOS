@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC9DE75D75EC68CE9E18E06 /* Pods_Mintegral_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5113F881DE0D4AF2FC1B4E /* Pods_Mintegral_iOS.framework */; };
 		2D9DA03D278589880084494B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DA03C278589880084494B /* AppDelegate.m */; };
 		2D9DA040278589880084494B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DA03F278589880084494B /* SceneDelegate.m */; };
 		2D9DA046278589880084494B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9DA044278589880084494B /* Main.storyboard */; };
 		2D9DA0482785898A0084494B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9DA0472785898A0084494B /* Assets.xcassets */; };
 		2D9DA04B2785898A0084494B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9DA0492785898A0084494B /* LaunchScreen.storyboard */; };
-		2D9DA04E2785898A0084494B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DA04D2785898A0084494B /* main.m */; };
-		2D9DA056278589B40084494B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DA054278589B40084494B /* TestViewController.m */; };
-		87AEBFD543EB261812A62B46 /* Pods_objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A435FB71B7C047382D9C0A6B /* Pods_objc.framework */; };
+		2D9DA056278589B40084494B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DA054278589B40084494B /* HomeViewController.m */; };
+		2DFDED862785ADC300B312C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9DA04D2785898A0084494B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D9DA038278589880084494B /* objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		208E42DC3A9CC3D54410ACF2 /* Pods-Mintegral_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mintegral_iOS.release.xcconfig"; path = "Target Support Files/Pods-Mintegral_iOS/Pods-Mintegral_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D9DA038278589880084494B /* Mintegral_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mintegral_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9DA03B278589880084494B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D9DA03C278589880084494B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2D9DA03E278589880084494B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -28,11 +29,12 @@
 		2D9DA04A2785898A0084494B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D9DA04C2785898A0084494B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D9DA04D2785898A0084494B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D9DA054278589B40084494B /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		2D9DA055278589B40084494B /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2D9DA054278589B40084494B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2D9DA055278589B40084494B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4D5113F881DE0D4AF2FC1B4E /* Pods_Mintegral_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mintegral_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5143F92957C25A0641EAD171 /* Pods-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc.debug.xcconfig"; path = "Target Support Files/Pods-objc/Pods-objc.debug.xcconfig"; sourceTree = "<group>"; };
-		A435FB71B7C047382D9C0A6B /* Pods_objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56FA1690857C94BCC767C55 /* Pods-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc.release.xcconfig"; path = "Target Support Files/Pods-objc/Pods-objc.release.xcconfig"; sourceTree = "<group>"; };
+		F10237A3940CA27F48E7E7DE /* Pods-Mintegral_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mintegral_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Mintegral_iOS/Pods-Mintegral_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87AEBFD543EB261812A62B46 /* Pods_objc.framework in Frameworks */,
+				1EC9DE75D75EC68CE9E18E06 /* Pods_Mintegral_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +52,7 @@
 		2D9DA02F278589880084494B = {
 			isa = PBXGroup;
 			children = (
-				2D9DA03A278589880084494B /* objc */,
+				2D9DA03A278589880084494B /* Mintegral_iOS */,
 				2D9DA039278589880084494B /* Products */,
 				90909CD42AC2CEA50BABCE4C /* Pods */,
 				8B22E4408122DA87DC7F7AB7 /* Frameworks */,
@@ -60,16 +62,16 @@
 		2D9DA039278589880084494B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D9DA038278589880084494B /* objc.app */,
+				2D9DA038278589880084494B /* Mintegral_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D9DA03A278589880084494B /* objc */ = {
+		2D9DA03A278589880084494B /* Mintegral_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2D9DA055278589B40084494B /* TestViewController.h */,
-				2D9DA054278589B40084494B /* TestViewController.m */,
+				2D9DA055278589B40084494B /* HomeViewController.h */,
+				2D9DA054278589B40084494B /* HomeViewController.m */,
 				2D9DA03B278589880084494B /* AppDelegate.h */,
 				2D9DA03C278589880084494B /* AppDelegate.m */,
 				2D9DA03E278589880084494B /* SceneDelegate.h */,
@@ -80,13 +82,13 @@
 				2D9DA04C2785898A0084494B /* Info.plist */,
 				2D9DA04D2785898A0084494B /* main.m */,
 			);
-			path = objc;
+			path = Mintegral_iOS;
 			sourceTree = "<group>";
 		};
 		8B22E4408122DA87DC7F7AB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A435FB71B7C047382D9C0A6B /* Pods_objc.framework */,
+				4D5113F881DE0D4AF2FC1B4E /* Pods_Mintegral_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +98,8 @@
 			children = (
 				5143F92957C25A0641EAD171 /* Pods-objc.debug.xcconfig */,
 				C56FA1690857C94BCC767C55 /* Pods-objc.release.xcconfig */,
+				F10237A3940CA27F48E7E7DE /* Pods-Mintegral_iOS.debug.xcconfig */,
+				208E42DC3A9CC3D54410ACF2 /* Pods-Mintegral_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -103,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D9DA037278589880084494B /* objc */ = {
+		2D9DA037278589880084494B /* Mintegral_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D9DA0512785898A0084494B /* Build configuration list for PBXNativeTarget "objc" */;
+			buildConfigurationList = 2D9DA0512785898A0084494B /* Build configuration list for PBXNativeTarget "Mintegral_iOS" */;
 			buildPhases = (
 				8D0412D66C69D7E1914B2EB4 /* [CP] Check Pods Manifest.lock */,
 				2D9DA034278589880084494B /* Sources */,
@@ -117,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = objc;
+			name = Mintegral_iOS;
 			productName = objc;
-			productReference = 2D9DA038278589880084494B /* objc.app */;
+			productReference = 2D9DA038278589880084494B /* Mintegral_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D9DA033278589880084494B /* Build configuration list for PBXProject "objc" */;
+			buildConfigurationList = 2D9DA033278589880084494B /* Build configuration list for PBXProject "Mintegral_iOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D9DA037278589880084494B /* objc */,
+				2D9DA037278589880084494B /* Mintegral_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -174,15 +178,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-objc/Pods-objc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mintegral_iOS/Pods-Mintegral_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-objc/Pods-objc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Mintegral_iOS/Pods-Mintegral_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objc/Pods-objc-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mintegral_iOS/Pods-Mintegral_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8D0412D66C69D7E1914B2EB4 /* [CP] Check Pods Manifest.lock */ = {
@@ -200,7 +204,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-objc-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Mintegral_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -215,9 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9DA03D278589880084494B /* AppDelegate.m in Sources */,
-				2D9DA04E2785898A0084494B /* main.m in Sources */,
 				2D9DA040278589880084494B /* SceneDelegate.m in Sources */,
-				2D9DA056278589B40084494B /* TestViewController.m in Sources */,
+				2DFDED862785ADC300B312C7 /* main.m in Sources */,
+				2D9DA056278589B40084494B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +361,7 @@
 		};
 		2D9DA0522785898A0084494B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5143F92957C25A0641EAD171 /* Pods-objc.debug.xcconfig */;
+			baseConfigurationReference = F10237A3940CA27F48E7E7DE /* Pods-Mintegral_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -365,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q2A2DTV2D2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = objc/Info.plist;
+				INFOPLIST_FILE = Mintegral_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huonglam.objc;
+				PRODUCT_BUNDLE_IDENTIFIER = huonglam.Mintegral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +389,7 @@
 		};
 		2D9DA0532785898A0084494B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C56FA1690857C94BCC767C55 /* Pods-objc.release.xcconfig */;
+			baseConfigurationReference = 208E42DC3A9CC3D54410ACF2 /* Pods-Mintegral_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,7 +397,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q2A2DTV2D2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = objc/Info.plist;
+				INFOPLIST_FILE = Mintegral_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -404,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = huonglam.objc;
+				PRODUCT_BUNDLE_IDENTIFIER = huonglam.Mintegral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D9DA033278589880084494B /* Build configuration list for PBXProject "objc" */ = {
+		2D9DA033278589880084494B /* Build configuration list for PBXProject "Mintegral_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D9DA04F2785898A0084494B /* Debug */,
@@ -423,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D9DA0512785898A0084494B /* Build configuration list for PBXNativeTarget "objc" */ = {
+		2D9DA0512785898A0084494B /* Build configuration list for PBXNativeTarget "Mintegral_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D9DA0522785898A0084494B /* Debug */,
